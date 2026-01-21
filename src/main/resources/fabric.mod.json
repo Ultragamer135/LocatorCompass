@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "locator_compass",
+  "version": "${version}",
+  "name": "Locator Compass",
+  "description": "Locate players with the locator compass!",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/locator_compass/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.ultragamer135.locator_compass.client.Locator_compassClient"
+    ],
+    "main": [
+      "io.github.ultragamer135.locator_compass.Locator_compass"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
